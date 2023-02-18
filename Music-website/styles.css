@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Navigation Bar */
+
+.container-fluid{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(92, 156, 235);
+}
+
+.navbar-brand{
+    margin-top: 10px;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+
+.nav-item{
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 25px;
+}
+
+.homeTitle{
+    color: rgb(239, 223, 223);
+    position: absolute;
+    top: 50%;
+    right: -12%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    padding-top: 20px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover{
+    color: wheat;
+}
+
+h2{
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+}
+
+/* Icons */
+.icons{
+    margin-top: 40px;
+
+}
+
+.fa{
+    padding: 10px;
+}
+
+/* Icon hover */
+.fa-twitter:hover{
+    color: rgba(43, 100, 207, 0.88);
+}
+
+.fa-facebook-official:hover{
+    color: rgb(14, 14, 193);
+}
+
+.fa-youtube-play:hover{
+    color: red;
+}
+
+.fa-instagram:hover{
+    color: rgba(248, 75, 75, 0.84);
+}
+
+.fa-spotify:hover{
+    background-color: black;
+    color: rgb(33, 235, 33);
+}
+
+.fa-music:hover{
+    background-color: rgb(209, 64, 88);
+}
+
+/* Playlist page */
+.playlist{
+    color: whitesmoke;
+    position: absolute;
+    top: 170%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(233, 143, 18);
+    height: 690px;
+    width: 400px;
+}
+
+.artistName{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.albumName{
+    text-align: center;
+    margin-top: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: b9ld;
+    color: red;
+}
+
+.songs{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 45px;
+    line-height: 40px;
+}
+
+.songs:hover{
+    color: rgb(187, 55, 55);
+}
+
+#playButton{
+    border-radius: 30px;
+    margin-left: 60px ;
+    padding: 2px 15px 2px 15px;
+
+}
+
+.fa-play{
+    color:  rgb(233, 143, 18);
+}
+
+
+#shuffleButton{
+    border-radius: 30px;
+    padding: 2px 15px 2px 15px;
+}
+
+.fa-random{
+    color:  rgb(233, 143, 18);
+}
+
+.albumLink{
+    color: rgb(36, 34, 34);
+    font-style: italic;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.albumLink:hover{
+    color: white;
+}
+
+#icon{
+    margin-left: 25px;
+    padding-left: 10px;
+}
+
+.albumCover{
+    margin: 125px 0 0 125px;
+}
+
+/* About page */
+.aboutBody{
+    background-color: rgb(17, 17, 98);
+    color: white;
+}
+
+.aboutTitle{
+    padding-top: 60px;
+    margin-left: 270px;
+    color: rgb(193, 84, 84);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#sidebar{
+    margin-top: -955px;
+}
+
+.aboutImage{
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+.aboutSoundbridge{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aboutRight{
+    text-align: center;
+    margin-left: 770px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+}
+
+.vision{
+    margin-right: 435px;
+    color: rgb(193, 84, 84);
+    font-weight: bold;
+}
+
+.aboutRightMission{
+    text-align: center;
+    margin-left: 730px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+}
+
+.mission{
+    margin-right: 370px;
+    color: rgb(193, 84, 84);
+    font-weight: bold;
+}
+
+.ep{
+    text-decoration: none;
+    color: rgb(193, 84, 84);
+}
+
+.background{    
+    background-color: rgb(41, 17, 136);
+    margin-top: -30px;
+}
+
+.footer{
+    background-color: rgb(184, 156, 156);
+    height: 300px;
+    color: rgb(11, 10, 10);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: -18px;
+}
+
+.copyright{
+    padding-top: 50px;
+}
+
+@media only screen and (max-width:600px) {
+    .container-fluid{
+        width: 100%;
+        background-color: rgb(92, 156, 235);
+        position: fixed;
+        margin-left: 0;
+        z-index: 2;
+    }
+}
